@@ -183,8 +183,8 @@ const Home = () => {
                     className="app__headerImage"
                     src={photo}
                     alt=""
-                    width={'180'}
-                    height={'60'}
+                    width={'300'}
+                    height={'100'}
                 />
                 {user ? (
                     <Button variant="contained" color='primary' onClick={() => auth.signOut()}>Logout</Button>
