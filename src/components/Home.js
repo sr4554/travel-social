@@ -109,7 +109,7 @@ const Home = () => {
                         <center>
                             <img
                                 className="app__headerImage"
-                                src="/Add a heading.png"
+                                src={photo}
                                 alt=""
                                 width={'180'}
                                 height={'60'}
@@ -150,7 +150,7 @@ const Home = () => {
                         <center>
                             <img
                                 className="app__headerImage"
-                                src="Add a heading.png"
+                                src={photo}
                                 alt=""
                                 width={'180'}
                                 height={'60'}
