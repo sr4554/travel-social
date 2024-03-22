@@ -3,12 +3,13 @@ import "firebase/compat/firestore";
 import 'firebase/compat/auth';
 import 'firebase/compat/storage';
 const firebaseConfig = {
-    apiKey: "AIzaSyDj-3qE7YcwmK2ByTpAN2oQxLGnGLyi9ng",
-    authDomain: "insta-clone-8d193.firebaseapp.com",
-    projectId: "insta-clone-8d193",
-    storageBucket: "insta-clone-8d193.appspot.com",
-    messagingSenderId: "554195562820",
-    appId: "1:554195562820:web:f4c49f374c4a3b00b6e711"
+    apiKey: "AIzaSyC6Ad0sWcVcr--EWqrBMwtTkxzItaJ6qSs",
+    authDomain: "social-travel-app-ff3af.firebaseapp.com",
+    projectId: "social-travel-app-ff3af",
+    storageBucket: "social-travel-app-ff3af.appspot.com",
+    messagingSenderId: "947514795779",
+    appId: "1:947514795779:web:2ad1ddc45ddf26b48d2b36",
+    measurementId: "G-TQR71CBF2K"
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig)
