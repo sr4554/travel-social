@@ -9,6 +9,8 @@ import Posts from './Posts';
 import AddPost from './AddPost';
 import { Edit } from '@material-ui/icons';
 
+import photo from './Add a heading.png';
+
 
 function getModalStyle() {
     return {
@@ -107,7 +109,7 @@ const Home = () => {
                         <center>
                             <img
                                 className="app__headerImage"
-                                src="https://upload.wikimedia.org/wikipedia/commons/0/06/%C4%B0nstagram-Profilime-Kim-Bakt%C4%B1-1.png"
+                                src="/Add a heading.png"
                                 alt=""
                                 width={'180'}
                                 height={'60'}
@@ -148,7 +150,7 @@ const Home = () => {
                         <center>
                             <img
                                 className="app__headerImage"
-                                src="https://upload.wikimedia.org/wikipedia/commons/0/06/%C4%B0nstagram-Profilime-Kim-Bakt%C4%B1-1.png"
+                                src="Add a heading.png"
                                 alt=""
                                 width={'180'}
                                 height={'60'}
@@ -179,7 +181,7 @@ const Home = () => {
             <div className="app__header">
                 <img
                     className="app__headerImage"
-                    src="https://upload.wikimedia.org/wikipedia/commons/0/06/%C4%B0nstagram-Profilime-Kim-Bakt%C4%B1-1.png"
+                    src={photo}
                     alt=""
                     width={'180'}
                     height={'60'}
